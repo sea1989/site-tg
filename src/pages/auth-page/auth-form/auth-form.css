@@ -17,3 +17,9 @@
 .auth-form__form {
     max-width: 360px;
 }
+
+@media (max-width: 1023px) {
+.auth-form {
+    width: 100%;
+}
+}
