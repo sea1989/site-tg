@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './auth-form.css';
 
 import Typography from '@mui/material/Typography';
@@ -102,6 +103,8 @@ export const AuthForm = () => {
                 >
                     Войти</Button>
             </form>
+
+            <Link to='/home'> в админку</Link>
         </div>
     )
 }
