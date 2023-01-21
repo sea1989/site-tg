@@ -1,0 +1,25 @@
+.super-app-theme--online {
+    background-color: #a1e3a1;
+}
+
+.Table__title {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .Table {
+      width: 170%;
+      margin-top: 2rem;
+    }
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .Table{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  }
